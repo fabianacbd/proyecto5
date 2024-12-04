@@ -1,0 +1,183 @@
+img{
+  width: 100%;
+  height: 500px;
+  min-width: 350px;
+  object-fit: cover;
+  }  
+  
+h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+#tipos {
+  display: flex;
+  width: 100%;
+  margin-top: -80px;
+  padding: 0 auto;
+  gap: 150px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+#tipos > ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  
+}
+#prueba1 {
+  transition: transform 0.5s;
+}
+#prueba1:hover {
+  transform: scale(1.06);
+}
+
+
+
+.description {
+  margin-top: -120px;
+  text-align: center;
+align-items: center;
+color: black; 
+}
+
+#cartas {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  padding: 0 auto;
+  gap: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+#cartas > ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+}
+.look {
+  width: 180px;
+  height: 0 auto;
+  margin-right: 100px;
+  padding: 0 auto;
+  transition: transform 0.5s;
+}
+
+#trends {
+  display: flex;
+  width: 100%;
+  margin: 20px;
+  padding: 0 auto;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+#trends > ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+}
+
+.container {
+  width: 180px;
+  height: 0 auto;
+  margin-right: 100px;
+  padding: 0 auto;
+  transition: transform 0.5s;
+}
+
+.descuento {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 80px;
+  margin-right: 50px;
+  padding: 150px;
+  border-radius: 10px;
+  border: 3px solid black;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+
+.descuento > p {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#formulario {display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.formulario > div {
+  width: fit-content;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.descuento input {
+  width: 500px;
+  height: 50px;
+text-align: center;
+align-items: center;
+}
+
+@media (max-width: 700px) {
+.descuento input, p, h4 {width: fit-content;
+}
+}
+
+h4 { display: flex;
+  flex-wrap: wrap;
+  font-size: 40px;
+ text-transform: uppercase;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#highlight > img {
+  width: 100%;
+  height: 1000px;
+}
+
+#portada{
+  width: 100%;
+  height: 1200px;
+}

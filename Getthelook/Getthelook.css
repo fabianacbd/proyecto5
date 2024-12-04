@@ -1,0 +1,30 @@
+#outfits {
+    display: flex;
+    width: 80%;
+    margin: 0px;
+    padding: 0 auto;
+  }
+
+#outfits > ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+#outfit > li {
+  list-style: none;
+}
+  #outfits img {
+    width: 180px;
+    height: 0 auto;
+    margin-right: 20px;
+    padding: 0 auto;
+    transition: transform 0.5s;
+  }
+  
+  h3 {
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+  }

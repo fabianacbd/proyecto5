@@ -1,0 +1,1 @@
+//documentar el proyecto, que es, el por que lo hice, que use, justificarlo, explicarlo y defenderlo.
