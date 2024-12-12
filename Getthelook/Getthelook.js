@@ -12,6 +12,11 @@ const { thelook } = data;
 <li><img src="${thelook.img4}"></li>
 <li><img src="${thelook.img5}"></li>
 <li><img src="${thelook.img6}"></li>
+<li><img src="${thelook.img7}"></li>
+<li><img src="${thelook.img8}"></li>
+<li><img src="${thelook.img9}"></li>
+<li><img src="${thelook.img10}"></li>
+<li><img src="${thelook.img11}"></li>
 </ul>
 </section>
  `;

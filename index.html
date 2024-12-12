@@ -12,11 +12,20 @@
   </head>
   <body>
     <header>
+      <div class="container">
+        <button id="cartButton">🛒 Ver Carrito</button>
+        <div id="cart" class="cart hidden">
+            <h3>Carrito de Compras</h3>
+            <ul id="cartItems">
+                <!-- Productos se agregarán aquí -->
+            </ul>
+            <button id="checkoutButton">Finalizar Compra</button>
+        </div>
+    </div>
   </header>
     <main>
     </main>
     <footer></footer>
-    <script type="module" src="/main.js"></script>
-    <script src="cart.js"></script>
+    <script type="module" src="main.js"></script>
   </body>
 </html>

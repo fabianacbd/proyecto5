@@ -1,18 +1,33 @@
 #abrigos {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    margin: 0px;
+    margin-left: 50px;
     padding: 0 auto;
   }
 
 #abrigos > ul {
   display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+  gap: 10px;
   text-decoration: none;
   list-style: none;
   text-align: center;
   align-items: center;
 }
+
+
+
+@media (max-width: 700px) {
+  ul {
+   flex-direction: column;
+   align-items: center;
+  }
+  li {
+    align-items: center;
+  }
+}
+
 
 #abrigos > a {
   text-decoration: none;
@@ -23,14 +38,16 @@
     align-items: center;
   }
 
-  #abrigos img {
-    width: 180px;
+  #abrigos  img {
+    width: 200px;
     height: 0 auto;
     margin-right: 20px;
     padding: 0 auto;
     transition: transform 0.5s;
+    align-items: center;
   }
 
   #abrigos > h3 {
     font-size: 20px;
+    color: black;
   }

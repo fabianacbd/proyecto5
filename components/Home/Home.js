@@ -3,7 +3,7 @@ import data from "../../data/data";
 const { tipos, highlight, getthelook, trend, trend1,trend2, trend3 } = data;
 
 const template = () => `
-  <img id="portada" src="https://static.bershka.net/assets/public/e049/630a/b7584a248a61/5f0937a8b715/11008560040-b1o/11008560040-b1o.jpg?ts=1730298591163&w=750"/>
+  <a href="#shoes" id="shoes"><img id="portada" src="https://static.bershka.net/assets/public/e049/630a/b7584a248a61/5f0937a8b715/11008560040-b1o/11008560040-b1o.jpg?ts=1730298591163&w=750"/></a>
   <section id="tipos"><ul>
   <li id="prueba1"><img src="${tipos.vestidos}">
     <h2>Abrigos</h2></li>
@@ -30,18 +30,22 @@ const template = () => `
 </section>
 <h3><a href="#" id="getthelook"> Te puede interesar ➜</a></h3>
  <section id="trends"><ul>
-    <li id="prueba1"><img src="${trend.img}">
+    <li id="producto"><img src="${trend.img}">
     <h2 class="description">${trend.title}</h2>
-    <p>${trend.price}</p></li>
-    <li id="prueba1"><img src="${trend1.img}">
+    <p>${trend.price}</p>
+    <button id="botoncomprar">Comprar</button></li>
+    <li id="producto"><img src="${trend1.img}">
     <h2 class="description">${trend1.title}</h2>
-    <p>${trend1.price}</p></li>
+    <p>${trend1.price}</p>
+    <button id="botoncomprar">Comprar</button></li>
     <li id="prueba1"><img src="${trend2.img}">
     <h2 class="description">${trend2.title}</h2>
-    <p>${trend2.price}</p></li>
+    <p>${trend2.price}</p>
+    <button id="botoncomprar">Comprar</button></li>
     <li id="prueba1"><img src="${trend3.img}">
     <h2 class="description">${trend3.title}</h2>
-    <p>${trend3.price}</p></li></ul>
+    <p>${trend3.price}</p>
+    <button id="botoncomprar">Comprar</button></li></ul>
 </section>
 <section class="descuento">
 <h4>Consigue un 10% de descuento en tu primera compra</h4>

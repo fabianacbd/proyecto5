@@ -1,19 +1,21 @@
 #outfits {
-    display: flex;
-    width: 80%;
-    margin: 0px;
-    padding: 0 auto;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0 auto;
+}
 
 #outfits > ul {
-  display: flex;
-  text-decoration: none;
-  list-style: none;
+display: flex;
+flex-wrap: wrap;
+margin-left: 80px;
+gap: 10px;
+text-decoration: none;
+list-style: none;
+text-align: center;
+align-items: center;
 }
 
-#outfit > li {
-  list-style: none;
-}
   #outfits img {
     width: 180px;
     height: 0 auto;

@@ -18,33 +18,30 @@ body.dark {
   color: whitesmoke;
 }
 
-nav {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  min-height: 90px;
-  padding: 20px;
-}
+
 
 /* Por defecto la lista está en flex (ESTAMOS MAQUEANDO MOBILE FIRST)*/
 nav ul {
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  justify-content: center;
+  gap: 10px;
+  justify-content: space-around;
   list-style: none;
   position: absolute;
-  right: 0;
-  top: 90px;
-  width: 150px;
-  height: 100px;
+  right: 500px;
+  top: 100px;
+  width: 180px;
+  height: 220px;
+  background-color: whitesmoke;
+  border-radius: 10px;
 }
 
 a {
   text-transform: uppercase;
   text-decoration: none;
   list-style: none;
+  
 }
 
 /* Ocultamos el input para que no se vea nunca, ya que se va a lanzar mediante el label */
@@ -57,6 +54,8 @@ a {
 #sandwich:not(:checked) + ul {
   display: none;
   cursor: pointer;
+  background-color: transparent;
+  
 }
 
 /*Ahora maquetamos la versión desktop*/
@@ -64,6 +63,7 @@ a {
   label {
     display: none;
     cursor: pointer;
+    
   }
 
   #sandwich:not(:checked) + ul,
@@ -71,6 +71,7 @@ a {
     display: flex;
     position: relative;
     flex-direction: row;
+    margin: 20px;
     top: 0;
     right: 0;
     width: auto;
@@ -78,42 +79,11 @@ a {
   }
 }
 
-@media (max-width: 700px) {
-  #themeBtn, #searchInput {
-    display: none;
-  }}
 
 footer {
   text-align: center;
 }
 
-#searchInput {
-  width: 140px;
-  height: 25px;
-  border: grey;
-  border-radius: 10px;
-  text-align: center;
-  background-color: rgb(224, 220, 220);
-}
-
-#themeBtn {
-  width: 35px;
-  border: grey;
-  border-radius: 10px;
-  text-align: center;
-  padding: 5px;
-  cursor: pointer;
-  background-color: rgb(224, 220, 220);
-}
-
-#searchBtn {
-  border: 2px solid rgb(255, 63, 63);
-    border-radius: 10px;
-    padding: 10px 20px;
-    background-color: rgb(255, 63, 63);
-    font-weight: 700;
-    transition: 0.3s;
-}
 
 
 li {
