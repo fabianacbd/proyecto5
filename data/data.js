@@ -10,10 +10,10 @@ tipos: {
 highlight: {
     botas: "https://static.bershka.net/assets/public/3129/00da/d913400bb4d1/023db7163e31/11050460040-01-b1o/11050460040-01-b1o.jpg?ts=1728570275249&w=750"},
 getthelook: {
-    street: "https://static.bershka.net/assets/public/7374/547e/a5bb4940b6d6/a647d5e1c647/little90sgirl_bb1854324462e01e10fa/little90sgirl_bb1854324462e01e10fa.jpg?ts=1729092004681&t=20241025021704&w=750",
-casual: "https://static.bershka.net/assets/public/4da8/9df5/773740ebb66c/ffa84fc406ad/helenamarria_becf41dd003de2f3db52/helenamarria_becf41dd003de2f3db52.jpg?ts=1729092003928&t=20241025021704&w=750",
-backtocity: "https://static.bershka.net/assets/public/35de/769f/6d214e19ad15/1169b0cec4f1/ileniazanetti_ebbddc0ea0b723e957d21/ileniazanetti_ebbddc0ea0b723e957d21.jpg?ts=1729092004297&t=20241025021704&w=750",
-leather: "https://static.bershka.net/assets/public/16a9/793f/5e964606b009/e256161b531a/blancaojeda__be35ed197bfbca2a4eae/blancaojeda__be35ed197bfbca2a4eae.jpg?ts=1729092005264&t=20241025021704&w=750"
+    street: "https://static.pxlecdn.com/photos/705485708/xl/6f7123ee5d7d33474f57.jpg",
+casual: "https://static.bershka.net/assets/public/1011/f961/b1ac4d33a6a4/67cf52b0f116/ninamalara_4f1238f6e8499a95df57/ninamalara_4f1238f6e8499a95df57.jpg?ts=1733928724665&t=20241217024705&w=750",
+backtocity: "https://static.bershka.net/assets/public/e588/9802/020041f7bc84/9d9fa44c4088/federicapoz_b6beed3a4c840c5e6d562/federicapoz_b6beed3a4c840c5e6d562.jpg?ts=1733928724222&t=20241217024705&w=750",
+leather: "https://static.bershka.net/assets/public/2476/91e7/af294a298a67/ccf3c7810a8d/little90sgirl_ef03a3449064726f8a921/little90sgirl_ef03a3449064726f8a921.jpg?ts=1733928724356&t=20241217024705&w=750"
 },
 trend: {
     title: "Blazer fluida slim fit cruzada",
@@ -35,18 +35,18 @@ trend3: {
     img: "https://static.bershka.net/assets/public/8e29/366e/f0bc4b089735/fa7703606423/06631200800-a4o/06631200800-a4o.jpg?ts=1722506819367&w=480"
 },
 thelook: {
-    img: "https://static.pxlecdn.com/photos/699579178/xl/7b5db0b795278ddef6a2.jpg",
-    img1: "https://static.pxlecdn.com/photos/696369136/xl/e1d5fd2f39f1467dc773.jpg",
-    img2: "https://static.pxlecdn.com/photos/696544654/xl/c6f75242be91e754cc69.jpg",
-    img3: "https://static.pxlecdn.com/photos/700153424/xl/f8f5879a18d9dabdcdbf.jpg",
-    img4: "https://static.pxlecdn.com/photos/698594189/xl/157e75c795904421ec01.jpg",
-    img5: "https://static.pxlecdn.com/photos/700153427/xl/d010aa3a4f4e962b7992.jpg",
-    img6: "https://static.pxlecdn.com/photos/701023415/xl/e137b0c02de2aaf7b2a8.jpg",
-    img7: "https://static.pxlecdn.com/photos/700516041/xl/b6efbc9ea741795653b5.jpg",
+    img: "https://static.pxlecdn.com/photos/702273684/xl/ef03a3449064726f8a92.jpg",
+    img1: "https://static.pxlecdn.com/photos/706457744/xl/4f1238f6e8499a95df57.jpg",
+    img2: "https://static.pxlecdn.com/photos/704085115/xl/937cca4ca585b00231d3.jpg",
+    img3: "https://static.pxlecdn.com/photos/705112778/xl/27e6e11bd58d54cf339a.jpg",
+    img4: "https://static.pxlecdn.com/photos/706177522/xl/0251c4fdc15772fbff2f.jpg",
+    img5: "https://static.pxlecdn.com/photos/705890119/xl/20c60e54c0d609f6273c.jpg",
+    img6: "https://static.pxlecdn.com/photos/704597007/xl/88b05b402bfbc616f3f0.jpg",
+    img7: "https://static.pxlecdn.com/photos/704461197/xl/973715b692ff8252edf6.jpg",
     img8: "https://static.pxlecdn.com/photos/704486283/xl/a2486a8c3733a7d32fc7.jpg",
-    img9: "https://static.pxlecdn.com/photos/705137297/xl/c8a9ecbfa379a5bbba94.jpg",
+    img9: "https://static.pxlecdn.com/photos/699579178/xl/7b5db0b795278ddef6a2.jpg",
     img10: "https://static.pxlecdn.com/photos/704634521/xl/bddd495d615977b8a51c.jpg",
-    img11: "https://static.pxlecdn.com/photos/704980199/xl/8c20e2f680422f5c45be.jpg"
+    img11: "https://static.pxlecdn.com/photos/705137297/xl/c8a9ecbfa379a5bbba94.jpg"
 
 
 },

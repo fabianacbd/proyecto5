@@ -3,7 +3,7 @@ import data from "../../data/data";
 const { tipos, highlight, getthelook, trend, trend1,trend2, trend3 } = data;
 
 const template = () => `
-  <a href="#shoes" id="shoes"><img id="portada" src="https://static.bershka.net/assets/public/e049/630a/b7584a248a61/5f0937a8b715/11008560040-b1o/11008560040-b1o.jpg?ts=1730298591163&w=750"/></a>
+  <img src="https://static.bershka.net/assets/public/e049/630a/b7584a248a61/5f0937a8b715/11008560040-b1o/11008560040-b1o.jpg?ts=1730298591163&w=750" id="portada"></a>
   <section id="tipos"><ul>
   <li id="prueba1"><img src="${tipos.vestidos}">
     <h2>Abrigos</h2></li>
@@ -16,16 +16,16 @@ const template = () => `
 <article id="highlight">
 <img id="highlight" src="${highlight.botas}">
 </article>
-<h3><a href="#" id="getthelook">Get the look ➜</a></h3>
+<h3 class="h3get"><a href="#" id="getthelook">Get the look ➜</a></h3>
  <section id="cartas">
-    <ul><li id="prueba1"><img src="${getthelook.street}">
-    <p>Cazadora dad fit oversize</p></li>
+    <ul><li id="prueba1"><a href="https://static.pxlecdn.com/photos/705485708/xl/6f7123ee5d7d33474f57.jpg"><img src="${getthelook.street}"></a>
+    <h2>PARTY</h2></li>
     <li id="prueba1"><img src="${getthelook.casual}">
-    <p>Cazadora capucha</p></li>
+    <h2>STREETSTYLE</h2></li>
     <li id="prueba1"><img src="${getthelook.backtocity}">
-    <p>Cazadora nylon</p></li>
+    <h2>CASUAL</h2></li>
     <li id="prueba1"><img src="${getthelook.leather}">
-    <p>Cazadora borreguillo con nylon</p></li>
+    <h2>FAUX NUR</h2></li>
     </ul>
 </section>
 <h3><a href="#" id="getthelook"> Te puede interesar ➜</a></h3>
@@ -33,7 +33,7 @@ const template = () => `
     <li id="producto"><img src="${trend.img}">
     <h2 class="description">${trend.title}</h2>
     <p>${trend.price}</p>
-    <button id="botoncomprar">Comprar</button></li>
+    <button onclick="">Comprar</button></li>
     <li id="producto"><img src="${trend1.img}">
     <h2 class="description">${trend1.title}</h2>
     <p>${trend1.price}</p>

@@ -13,20 +13,19 @@ const template = () => `<footer>
         </ul>
         <ul class="links">
             <li>We are Bianca</li>
-            <li>Sobre Biana</li>
+            <li>Sobre Bianca</li>
             <li>Sostenibilidad</li>
             <li>Trabaja con nosotros</li>
             <li>Prensa</li>
-            <li>Trabaja con nosotros</li>
             <li>Nuestras tiendas</li>
         </ul>
         <ul class="links">
             <li>Te puede interesar</li>
-            <li>Vestidos mujer</li>
+            <li>Inspirate</li>
             <li>Cazadoras mujer</li>
-            <li>Baggy jeans</li>
+            <li>Botas</li>
             <li>Pantalones mujer</li>
-            <li>Faldas mujer</li>
+            <li>Abrigos mujer</li>
         </ul>
     <p>Bianca 2024 © </p>
     </footer>`;

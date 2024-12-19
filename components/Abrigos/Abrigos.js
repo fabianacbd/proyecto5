@@ -7,7 +7,7 @@ const {abrigos } = data;
 `<h3>Abrigos ➜</h3>
  <section id="abrigos">
  <ul>
- <li class="product" data-id="1" data-name="Producto 1" data-price="10.00"><img src="${abrigos.modelo1.img}">
+ <li class="producto" data-id="1" data-name="Producto 1" data-price="10.00"><img src="${abrigos.modelo1.img}">
  <p>${abrigos.modelo1.name}</p>
  <p>${abrigos.modelo1.price}</p>
   <button id="botoncomprar">Comprar</button>

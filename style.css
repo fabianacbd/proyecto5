@@ -89,3 +89,12 @@ footer {
 li {
   cursor: pointer;
 }
+
+.cartMessage-hidden {
+  display: none;
+}
+
+#cartDropdown {
+  width: auto;
+  height: auto;
+}
