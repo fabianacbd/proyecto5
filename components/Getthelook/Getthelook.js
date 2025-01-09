@@ -1,5 +1,6 @@
+
 import "./Getthelook.css";
-import data from "../data/data";
+import data from "../../data/data";
 const { thelook } = data;
 
  export const Getthelook = () => 
