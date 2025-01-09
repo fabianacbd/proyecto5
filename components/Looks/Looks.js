@@ -1,4 +1,4 @@
-import { Getthelook } from "../../GetTheLook/getthelook";
+import { Getthelook } from "../Getthelook/Getthelook";
 import { cleanPage } from "../../utils/cleanPage";
 
 
