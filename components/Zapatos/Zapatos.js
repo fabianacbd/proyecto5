@@ -85,10 +85,6 @@ const { zapatos } = data;
  <p>${zapatos.shoes20.name}</p>
  <p>${zapatos.shoes20.price}</p>
   <button id="botoncomprar">Comprar</button></li>
-  <li><img src="${zapatos.shoes21.img}">
- <p>${zapatos.shoes21.name}</p>
- <p>${zapatos.shoes21.price}</p>
-  <button id="botoncomprar">Comprar</button></li>
 </ul>
 </section>
  `;
