@@ -3,7 +3,7 @@ import data from "../../data/data";
 const { tipos, highlight, getthelook, trend, trend1,trend2, trend3 } = data;
 
 const template = () => `
-  <img src="https://static.bershka.net/assets/public/e049/630a/b7584a248a61/5f0937a8b715/11008560040-b1o/11008560040-b1o.jpg?ts=1730298591163&w=750" id="portada"></a>
+  <img id="portada" src="https://static.bershka.net/assets/public/e049/630a/b7584a248a61/5f0937a8b715/11008560040-b1o/11008560040-b1o.jpg?ts=1730298591163&w=750" id="portada"></a>
   <section id="tipos"><ul>
   <li id="prueba1"><img src="${tipos.vestidos}">
     <h2>Abrigos</h2></li>
